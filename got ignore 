@@ -1,0 +1,12 @@
+cat > .gitignore << 'GITEOF'
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+.env
+.git
+README.md
+.DS_Store
+*.log
+GITEOF
